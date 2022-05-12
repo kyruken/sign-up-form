@@ -1,10 +1,25 @@
+/* ===== Text Styles ===== */
+
+
+/* ===== ^ Text Styles ^ ===== */
+
 
 /* ===== Main Container ===== */
 .background-container {
-
+    display: flex;
+    background-image: url("images/background.jpg");
+    width: calc(1200px + 40vw);
+    height: auto;
+    justify-content: center;
 }
 
 .form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    border: 1px solid green;
 
 
 }
@@ -18,6 +33,8 @@
 }
 
 .form-layout {
+    display: flex;
+    flex-direction: column;
 
 }
 
