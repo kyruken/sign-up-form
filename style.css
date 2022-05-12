@@ -8,6 +8,9 @@ a {
 
 
 /* ===== Text Styles ===== */
+body {
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 .background-container h1,
 .background-container h2,
 .form-text,
