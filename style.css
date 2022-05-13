@@ -35,6 +35,10 @@ a:hover {
     color: #a99211;
 }
 
+.checkbox-terms label {
+    /* Flex container made the checkbox positioning off center */
+    margin-top: 6px;
+}
 /* ===== ^ Text Styles ^ ===== */
 
 
@@ -96,12 +100,34 @@ a:hover {
 }
 
 [type='checkbox'] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000;
+    color: #fff;
     margin-top: 10px;
     background-color: #393b3d;
-
-
+    /* Aligns checkboxes with text */
 }
 
+input[type="checkbox"]::before {
+    content: "✔";
+    font-size: 1.2 rem;
+    right: -1px;
+    top: -0.3rem;
+    visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+    visibility: visible;
+}
+
+input[type="checkbox"]:disabled{
+    border-color: #000;
+    background: #ddd;
+    color: gray;
+}
 [type='submit'] {
 
     background-color: rgb(255, 255, 255);
@@ -123,6 +149,11 @@ a:hover {
     cursor: pointer;
 }
 
+.checkbox-terms {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
 
 
 /* ===== ^ Main Container ^ ===== */
