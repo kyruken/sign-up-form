@@ -55,6 +55,7 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 100px;
     background-attachment: fixed;
+    
 }
 
 .form-container {
@@ -162,14 +163,29 @@ input[type="checkbox"]:disabled{
 /* ===== Footer ===== */
 
 .bottom-bar {
-
+    background-color:#012230;
+    box-shadow: inset 0 0.625rem 0.6875rem 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    gap: 12px;
+    padding: 40px 0;
+    width: calc(850px + 40vw);
 }
 
 .logo {
+    margin-left: 16px;
+    border-top: 4px dotted #fff;
+    border-left: 4px dotted #fff;
+    border-right: 4px dotted #fff;
+    border-bottom: 4px solid #fff;
+
+    padding: 20px 10px;
 
 }
 
 .footer-text {
+    margin-right: 16px;
+    align-self: center;
 
 }
 
