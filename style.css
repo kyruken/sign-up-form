@@ -9,7 +9,7 @@ a {
 
 /* ===== Text Styles ===== */
 body {
-    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .background-container h1,
 .background-container h2,
@@ -24,6 +24,10 @@ label {
 }
 
 h1 {
+    font-family: "Water Brush", BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -52,8 +56,8 @@ a:hover {
     height: 100%;
     height: auto;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 130px;
     background-attachment: fixed;
     
 }
@@ -100,6 +104,12 @@ a:hover {
 
 }
 
+input[type='text']:valid,
+input[type='email']:valid,
+input[type='password']:valid {
+    border: 1px solid rgb(88, 168, 88);
+}
+
 [type='checkbox'] {
     -webkit-appearance: none;
     appearance: none;
@@ -109,7 +119,6 @@ a:hover {
     color: #fff;
     margin-top: 10px;
     background-color: #393b3d;
-    /* Aligns checkboxes with text */
 }
 
 input[type="checkbox"]::before {
