@@ -198,4 +198,8 @@ input[type="checkbox"]:disabled{
 
 }
 
+.bottom-bar a {
+    align-self: center;
+}
+
 /* ===== ^ Footer ^ ===== */
