@@ -2,6 +2,8 @@
 
 The purpose of this project is to practice form basics and form validations. Although I didn't use much form validations, I will probably come back to this project after learning some regex to add that. I also don't know how to use a confirm password validation which I would have to learn as well.
 
+A really cool property I learned of is background-attachment which creates this cool scroll effect for the background image. Using background-attachment: fixed adds a dynamic effect for the background which I really like.
+
 This is supposed to be a sign-up form for a imaginary online game called "Spellborne". Therefore, this form is simulated off of other popular online game sign up forms.
 
 Instructions:
